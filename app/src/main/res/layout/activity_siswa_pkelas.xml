@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SiswaPKelas"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi Data Kamu"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:id="@+id/isi_dataK"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Siswa"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:id="@+id/I_NamaS"
+        android:layout_below="@+id/isi_dataK"
+        />
+
+    <LinearLayout
+        android:id="@+id/Kelas_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/I_NamaS"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Kelas6A"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Kelas 6A"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/Kelas6B"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Kelas 6B"
+            android:textSize="18dp"
+            android:backgroundTint="@color/softOrange"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Kelas_6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:width="200dp"
+        android:height="55dp"
+        android:text="Kelas 5"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:id="@+id/Kelas_5"
+        android:backgroundTint="@color/softOrange"
+        />
+
+
+
+
+
+
+</RelativeLayout>

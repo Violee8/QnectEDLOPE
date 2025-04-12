@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuruKategoriQ"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori Soal"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="50dp"
+        android:id="@+id/kategori_soal"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kategori_soal"
+        android:layout_marginTop="30dp"
+        android:width="200dp"
+        android:height="55dp"
+        android:text="Kelas 5"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppinssemibold"
+        android:id="@+id/Konfirmasi_Kategori"
+        android:backgroundTint="@color/softOrange"
+        />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SiswaDashB"
+    android:background="@color/background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:text="TIME"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pg_time"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:layout_below="@+id/pg_time"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/Q_Q"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Q_Q"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:width="330dp"
+        android:height="65dp"
+        android:text="Pilihan 1"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:id="@+id/P_1_PG"
+        android:backgroundTint="@color/primaryColor"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_1_PG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:height="65dp"
+        android:text="Pilihan 2"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:id="@+id/P_2_PG"
+        android:backgroundTint="@color/primaryColor"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_2_PG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:height="65dp"
+        android:text="Pilihan 3"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:id="@+id/P_3_PG"
+        android:backgroundTint="@color/primaryColor"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_3_PG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:height="65dp"
+        android:text="Pilihan 4"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:id="@+id/P_4_PG"
+        android:backgroundTint="@color/primaryColor"
+        />
+
+    <Button
+        android:id="@+id/P_N_PG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_4_PG"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="@color/primaryColor"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="8dp"
+        android:text="Finish"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

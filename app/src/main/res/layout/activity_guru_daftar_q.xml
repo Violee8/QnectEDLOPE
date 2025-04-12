@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuruDaftarQ"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Quiz"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/Daftar_QuizG"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Daftar_QuizG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:width="330dp"
+        android:height="65dp"
+        android:text="Quiz 1"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:id="@+id/DFTRQ1"
+        android:backgroundTint="@color/primaryColor"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DFTRQ1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:height="65dp"
+        android:text="Quiz 2"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:id="@+id/DFTRQ2"
+        android:backgroundTint="@color/primaryColor"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DFTRQ2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="330dp"
+        android:height="65dp"
+        android:text="Quiz 3"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:id="@+id/DFTRQ3"
+        android:backgroundTint="@color/primaryColor"
+        />
+
+
+
+
+</RelativeLayout>

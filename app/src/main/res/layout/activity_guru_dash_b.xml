@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SiswaDashB"
+    android:background="@color/background">
+
+
+    <ImageView
+        android:id="@+id/DsbG_PP"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/gurupp" />
+
+
+    <TextView
+        android:id="@+id/Dsb_Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/DsbG_PP"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Nama Guru"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/Dsb_Kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Dsb_Nama"
+        android:layout_alignStart="@id/Dsb_Nama"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="NIP"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:id="@+id/Tombol_Tombol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DsbG_PP"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnKiri"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Daftar Quiz"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnKanan"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Buat Quiz"
+            android:backgroundTint="@color/softOrange"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnBaru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tombol_Tombol"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Laporan"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold"
+        android:backgroundTint="@color/warmBrown"
+        />
+
+</RelativeLayout>
